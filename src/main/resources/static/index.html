@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>file upload</h1>
+<div>
+    <form method="post" action="/upload" enctype="multipart/form-data">
+        <input type="file" name="inputFile">
+        <input type="submit">
+    </form>
+</div>
+
+
+<h1>file download</h1>
+<div>
+    <form method="post" action="/download">
+        <p>File Id</p>
+        <input type="text" name="fileId">
+        <input type="submit">
+    </form>
+</div>
+
+</body>
+</html>
